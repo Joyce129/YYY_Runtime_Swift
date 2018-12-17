@@ -35,7 +35,4 @@ class Teacher: NSObject {
         
         self.name = name
     }
-    
-    
-
 }

@@ -8,9 +8,8 @@
 
 import UIKit
 
-class Person: NSObject {
-
-
+class Person: NSObject
+{
     /*
      在程序中，使用运行时函数，动态获取类的属性列表、方法列表、协议列表、Ivar列表。OC的东西在运行时面前，一切都是裸露的。
      获取类的属性列表，可以通过KVC动态设置值。
@@ -52,8 +51,4 @@ class Person: NSObject {
         
         return array
     }
-
-    
-    
-    
 }

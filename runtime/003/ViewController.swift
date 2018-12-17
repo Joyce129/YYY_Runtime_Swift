@@ -10,8 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        
+        title = "获取类的属性列表"
+        
+        let count = Person.propertyList()
+    
+        print(count)
         
         let url = URL(string: "http://www.baidu.com")
         //使用session加载网络数据
